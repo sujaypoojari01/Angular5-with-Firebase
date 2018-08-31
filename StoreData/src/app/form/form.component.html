@@ -1,0 +1,15 @@
+<form class="custom_style " #f="ngForm" (ngSubmit)="onSave(f.value)">
+
+  <div class="example-container center ">
+    <mat-form-field>
+      <input matInput name="title" ngModel placeholder="Title">
+    </mat-form-field>
+
+    <mat-form-field>
+      <textarea matInput ngModel name="Textarea" placeholder="Textarea"></textarea>
+    </mat-form-field>
+
+    <button mat-raised-button color="primary">Save</button>
+  </div>
+
+</form>
